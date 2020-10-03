@@ -46,7 +46,7 @@ namespace NoteTimer
 
         static string FormatNote(TimeSpan elapsed, string note)
         {
-            return String.Format("{0:00}:{1:00}:{2:00} - {3}\n", elapsed.Minutes, elapsed.Seconds, elapsed.Milliseconds / 10, note);
+            return String.Format("{0:00}:{1:00}.{2:00} - {3}\n", elapsed.Minutes, elapsed.Seconds, elapsed.Milliseconds / 10, note);
         }
 
         static void SaveFile(string title, string toSave)
