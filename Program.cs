@@ -51,7 +51,7 @@ namespace NoteTimer
 
         static void SaveFile(string title, string toSave)
         {
-            string path = title + " " + DateTime.Now.ToString("yyyy-MM-dd HH-mm-ss") + ".txt";
+            string path = Path.Combine("..\\", title + " " + DateTime.Now.ToString("yyyy-MM-dd HH-mm-ss") + ".txt").ToString();
             File.WriteAllText(path, toSave);
         }
     }
