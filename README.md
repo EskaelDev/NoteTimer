@@ -1,5 +1,5 @@
 # NoteTimer
-C# console app to add chapter to an mkv video using MKVToolnix.
+C# console app to add chapters to a mkv video using MKVToolnix.
 
 # Important
 To finish writing chapter names write `0` and hit enter
