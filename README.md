@@ -2,7 +2,7 @@
 C# console app to add chapters to a mkv video using MKVToolnix.
 
 # Important
-To finish writing chapter names write `0` and hit enter
+To finish writing chapter names type `0` and hit enter
 
 
 ### Use scenario
@@ -11,7 +11,7 @@ To finish writing chapter names write `0` and hit enter
 3. Hit enter on subject of your choice from the menu
 4. At any time write what lecturer is talking about and hit enter
 5. Finish recording
-6. Write `0` in the console
+6. Type `0` in the console
 7. Your recording should be copied and enhanced with chapters and their names.
 8. Exit console app
 
